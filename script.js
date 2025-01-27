@@ -37,5 +37,5 @@ function checkWinner() {
     return winningCombinations.some(combination => {
         const [a, b, c] = combination;
         return board[a] && board[a] === board[b] && board[a] === board[c];
-    });
+    });
 }
